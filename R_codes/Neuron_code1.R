@@ -1,6 +1,6 @@
 # O output será a raiz quadrada da entrada, essa será a relação de entrada e saída na minha rede.
 rm(list = ls())
-input_train = as.data.frame(runif(1000, min = 0, max = 100))
+xinput_train = as.data.frame(runif(1000, min = 0, max = 100))
 output_train = sqrt(input_train)
 # Criando A minha matriz de entradas e saídas e renomeando as colunas.
 base_train = cbind(input_train, output_train)
